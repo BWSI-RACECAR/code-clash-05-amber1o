@@ -28,11 +28,8 @@ class Solution:
     def hi_finder(self,hi_string):
         # type hi_string: string
         # return: int
-        count = 0
-        for i in hi_string:
-            if i == 'hi':
-                count = count + 1   
-        return count
+        counter = test_str.count('hi')
+        return counter
 
 
         
