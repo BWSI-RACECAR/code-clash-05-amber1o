@@ -32,6 +32,7 @@ class Solution:
         for i in hi_string:
             if i == 'hi':
                 count = count + 1   
+        return count
 
 
         
