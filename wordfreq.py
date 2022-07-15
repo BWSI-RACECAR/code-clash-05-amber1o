@@ -28,7 +28,7 @@ class Solution:
     def hi_finder(self,hi_string):
         # type hi_string: string
         # return: int
-        counter = 0
+        count = 0
         for i in hi_string:
             if i == 'hi':
                 count = count + 1   
