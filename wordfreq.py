@@ -28,6 +28,7 @@ class Solution:
     def hi_finder(self,hi_string):
         # type hi_string: string
         # return: int
+        hi_string = hi_string.lower()
         counter = hi_string.count('hi')
         return counter
 
